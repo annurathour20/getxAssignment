@@ -12,7 +12,7 @@ void main() {
     const testImageUrl = 'https://via.placeholder.com/150';
     String? tappedUrl;
 
-    // Fake GetX route to capture navigation
+    // mock GetX route to capture navigation
     await tester.pumpWidget(
       GetMaterialApp(
         getPages: [
